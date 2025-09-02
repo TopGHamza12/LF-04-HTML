@@ -1,0 +1,29 @@
+body {
+    font-family: Alef, sans-serif;
+    font-size:85px;
+    background-color:hotpink;
+    text-align:center;
+    margin-top:1000px;
+
+
+    table{
+
+
+    margin: auto;
+
+}
+
+    th{
+        padding-left:20px;
+        padding-right: 100px;
+    }
+    a{
+        color: gold;
+        	text-decoration:blue;
+        	cursor:grab;
+        	font-weight:revert;
+
+    }
+
+
+}
