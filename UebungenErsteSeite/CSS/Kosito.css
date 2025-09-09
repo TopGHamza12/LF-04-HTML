@@ -3,7 +3,7 @@ body {
     font-size:85px;
     background-color:hotpink;
     text-align:center;
-    margin-top:1000px;
+    margin-top:20px;
 
 
     table{
@@ -14,8 +14,8 @@ body {
 }
 
     th{
-        padding-left:20px;
-        padding-right: 100px;
+        padding-left:2px;
+        padding-right: 10px;
     }
     a{
         color: gold;
