@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GridLayoutUebung/GridLayoutUebung.iml" filepath="$PROJECT_DIR$/GridLayoutUebung/GridLayoutUebung.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LF-04-HTML.iml" filepath="$PROJECT_DIR$/.idea/LF-04-HTML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Uebungen HTML CSS Lambo-Preasentation/Uebungen HTML CSS Lambo-Preasentation.iml" filepath="$PROJECT_DIR$/Uebungen HTML CSS Lambo-Preasentation/Uebungen HTML CSS Lambo-Preasentation.iml" />
     </modules>
