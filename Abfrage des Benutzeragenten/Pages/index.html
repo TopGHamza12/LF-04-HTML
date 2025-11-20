@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Browserabfrage</h1>
+
+<div class="container">
+    <h2> version mit HTML-Event-Handler</h2>
+    <form id ="frmBroswerabfrage">
+        <button id="btDruecken" type="button" onClick="meldung()">
+            Welchen Browser nehm' ich wohl?
+        </button>
+        <output id="browsertyp">
+            Name des Benutzeragenten
+        </output>
+    </form>
+
+    <div class="version">
+        <h2> version mit JavaScript-Event-Listner</h2>
+        <form id ="frmBroswerabfrage2">
+            <button id="btDruecken2" type="button" >
+                Welchen Browser nehm' ich wohl?(Event listener)
+            </button>
+            <output id="browsertyp2">
+                Name des Benutzeragenten
+            </output>
+        </form>
+    </div>
+</div>
+
+<script >                                                // Funktion mit let deklariert (wie in der Aufgabe gefordert)
+let meldung = () => {
+const outputElement = document.getElementById('browsertyp');
+outputElement.textContent = "Hallo du Schönheit, du verwendest den folgenden Browser: " + navigator.userAgent;
+};
+
+// Event-Listener für die zweite Version
+document.addEventListener('DOMContentLoaded', function() {
+const button2 = document.getElementById('btDruecken2');
+const output2 = document.getElementById('browsertyp2');
+
+button2.addEventListener('click', function() {
+output2.textContent = "Hallo du Schönheit, du verwendest den folgenden Browser: " + navigator.userAgent;
+});
+});
+</script>
+</body>
+</html>

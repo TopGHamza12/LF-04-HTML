@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Passwortabfrage</title>
+    <script>
+        let p_w_abfrage = ()=> {
+
+
+        let versuch = 1;
+        let eingabe;
+        const korrekteEingabe = "dynamischer Quellcodemanipulierer";
+        while (versuch <= 3 && eingabe !== korrekteEingabe) {
+            eingabe = window.prompt(versuch +". Versuch: Was bedeutet DOM?", "dynamischer");
+            versuch++;
+        }
+        if (eingabe === korrekteEingabe) {
+            window.location.replace ("http://www.szut.de/");
+// window. location.href = "http://www.szut.de/"; // alternativ
+        } else {
+            document.body. textContent = "kein Zutritt für Volltrottel";}}
+
+
+    </script>
+</head>
+<body onLoad="p_w_abfrage()"...>
+
+</body>
+<body>
+</body>
+</html>

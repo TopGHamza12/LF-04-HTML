@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AAAAAAA3/AAAAAAA3.iml" filepath="$PROJECT_DIR$/AAAAAAA3/AAAAAAA3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abfrage des Benutzeragenten/Abfrage des Benutzeragenten.iml" filepath="$PROJECT_DIR$/Abfrage des Benutzeragenten/Abfrage des Benutzeragenten.iml" />
       <module fileurl="file://$PROJECT_DIR$/GridLayoutUebung/GridLayoutUebung.iml" filepath="$PROJECT_DIR$/GridLayoutUebung/GridLayoutUebung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaScript mit Fallunterscheidung und Schleife/JavaScript mit Fallunterscheidung und Schleife.iml" filepath="$PROJECT_DIR$/JavaScript mit Fallunterscheidung und Schleife/JavaScript mit Fallunterscheidung und Schleife.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LF-04-HTML.iml" filepath="$PROJECT_DIR$/.idea/LF-04-HTML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Uebungen HTML CSS Lambo-Preasentation/Uebungen HTML CSS Lambo-Preasentation.iml" filepath="$PROJECT_DIR$/Uebungen HTML CSS Lambo-Preasentation/Uebungen HTML CSS Lambo-Preasentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WiederholungsuebungKonkurKG/WiederholungsuebungKonkurKG.iml" filepath="$PROJECT_DIR$/WiederholungsuebungKonkurKG/WiederholungsuebungKonkurKG.iml" />
     </modules>
   </component>
 </project>
